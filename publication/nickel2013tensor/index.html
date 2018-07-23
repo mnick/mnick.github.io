@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.44" />
+  <meta name="author" content="Maximilian Nickel">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Relational learning is concerned with learning from data where information is primarily represented in form of relations between entities. In recent years, this branch of machine learning has become increasingly important, as relational data is generated in an unprecedented amount and has become ubiquitous in many fields of application such as bioinformatics, artificial intelligence and social network analysis. However, relational learning is a very challenging task, due to the network structure and the high dimensionality of relational data. In this thesis we propose that tensor factorization can be the basis for scalable solutions for learning from relational data and present novel tensor factorization algorithms that are particularly suited for this task. &lt;br/&gt;&lt;br/&gt; In the first part of the thesis, we present the RESCAL model -- a novel tensor factorization for relational learning -- and discuss its capabilities for exploiting the idiosyncratic properties of relational data. In particular, we show that, unlike existing tensor factorizations, our proposed method is capable of exploiting contextual information that is more distant in the relational graph. Furthermore, we present an efficient algorithm for computing the factorization. We show that our method achieves better or on-par results on common benchmark data sets, when compared to current state-of-the-art relational learning methods, while being significantly faster to compute. &lt;br/&gt;&lt;br/&gt; In the second part of the thesis, we focus on large-scale relational learning and its applications to Linked Data. By exploiting the inherent sparsity of relational data, an efficient computation of RESCAL can scale up to the size of large knowledge bases, consisting of millions of entities, hundreds of relations and billions of known facts. We show this analytically via a thorough analysis of the runtime and memory complexity of the algorithm as well as experimentally via the factorization of the YAGO2 core ontology and the prediction of relationships in this large knowledge base on a single desktop computer. Furthermore, we derive a new procedure to reduce the runtime complexity for regularized factorizations from O(r^5) to O(r^3) -- where r denotes the number of latent components of the factorization -- by exploiting special properties of the factorization. We also present an efficient method for including attributes of entities in the factorization through a novel coupled tensor-matrix factorization. Experimentally, we show that RESCAL allows us to approach several relational learning tasks that are important to Linked Data. &lt;br/&gt;&lt;br/&gt; In the third part of this thesis, we focus on the theoretical analysis of learning with tensor factorizations. Although tensor factorizations have become increasingly popular for solving machine learning tasks on various forms of structured data, there exist only very few theoretical results on the generalization abilities of these methods. Here, we present the first known generalization error bounds for tensor factorizations. To derive these bounds, we extend known bounds for matrix factorizations to the tensor case. Furthermore, we analyze how these bounds behave for learning on over- and understructured representations, for instance, when matrix factorizations are applied to tensor data. In the course of deriving generalization bounds, we also discuss the tensor product as a principled way to represent structured data in vector spaces for machine learning tasks. In addition, we evaluate our theoretical discussion with experiments on synthetic data, which support our analysis.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/publication/nickel2013tensor/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair&#43;Display:400,700%7cFauna&#43;One">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css/maxn.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Maximilian Nickel">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Maximilian Nickel">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/publication/nickel2013tensor/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@https://twitter.com/mnick">
+  <meta property="twitter:creator" content="@https://twitter.com/mnick">
+  
+  <meta property="og:site_name" content="Maximilian Nickel">
+  <meta property="og:url" content="/publication/nickel2013tensor/">
+  <meta property="og:title" content="Tensor Factorization for Relational Learning | Maximilian Nickel">
+  <meta property="og:description" content="Relational learning is concerned with learning from data where information is primarily represented in form of relations between entities. In recent years, this branch of machine learning has become increasingly important, as relational data is generated in an unprecedented amount and has become ubiquitous in many fields of application such as bioinformatics, artificial intelligence and social network analysis. However, relational learning is a very challenging task, due to the network structure and the high dimensionality of relational data. In this thesis we propose that tensor factorization can be the basis for scalable solutions for learning from relational data and present novel tensor factorization algorithms that are particularly suited for this task. &lt;br/&gt;&lt;br/&gt; In the first part of the thesis, we present the RESCAL model -- a novel tensor factorization for relational learning -- and discuss its capabilities for exploiting the idiosyncratic properties of relational data. In particular, we show that, unlike existing tensor factorizations, our proposed method is capable of exploiting contextual information that is more distant in the relational graph. Furthermore, we present an efficient algorithm for computing the factorization. We show that our method achieves better or on-par results on common benchmark data sets, when compared to current state-of-the-art relational learning methods, while being significantly faster to compute. &lt;br/&gt;&lt;br/&gt; In the second part of the thesis, we focus on large-scale relational learning and its applications to Linked Data. By exploiting the inherent sparsity of relational data, an efficient computation of RESCAL can scale up to the size of large knowledge bases, consisting of millions of entities, hundreds of relations and billions of known facts. We show this analytically via a thorough analysis of the runtime and memory complexity of the algorithm as well as experimentally via the factorization of the YAGO2 core ontology and the prediction of relationships in this large knowledge base on a single desktop computer. Furthermore, we derive a new procedure to reduce the runtime complexity for regularized factorizations from O(r^5) to O(r^3) -- where r denotes the number of latent components of the factorization -- by exploiting special properties of the factorization. We also present an efficient method for including attributes of entities in the factorization through a novel coupled tensor-matrix factorization. Experimentally, we show that RESCAL allows us to approach several relational learning tasks that are important to Linked Data. &lt;br/&gt;&lt;br/&gt; In the third part of this thesis, we focus on the theoretical analysis of learning with tensor factorizations. Although tensor factorizations have become increasingly popular for solving machine learning tasks on various forms of structured data, there exist only very few theoretical results on the generalization abilities of these methods. Here, we present the first known generalization error bounds for tensor factorizations. To derive these bounds, we extend known bounds for matrix factorizations to the tensor case. Furthermore, we analyze how these bounds behave for learning on over- and understructured representations, for instance, when matrix factorizations are applied to tensor data. In the course of deriving generalization bounds, we also discuss the tensor product as a principled way to represent structured data in vector spaces for machine learning tasks. In addition, we evaluate our theoretical discussion with experiments on synthetic data, which support our analysis.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2013-08-14T09:43:35-04:00">
+  
+  <meta property="article:modified_time" content="2013-08-14T09:43:35-04:00">
+  
+
+  
+  
+
+  <title>Tensor Factorization for Relational Learning | Maximilian Nickel</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Maximilian Nickel</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#workshops">
+            
+            <span>Workshops &amp; Symposia</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#talks">
+            
+            <span>Talks &amp; Tutorials</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Tensor Factorization for Relational Learning</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      Maximilian Nickel
+      
+    </span>
+    <span class="pull-right">
+      
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Tensor%20Factorization%20for%20Relational%20Learning&amp;url=%2fpublication%2fnickel2013tensor%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fnickel2013tensor%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fnickel2013tensor%2f&amp;title=Tensor%20Factorization%20for%20Relational%20Learning"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fnickel2013tensor%2f&amp;title=Tensor%20Factorization%20for%20Relational%20Learning"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Tensor%20Factorization%20for%20Relational%20Learning&amp;body=%2fpublication%2fnickel2013tensor%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    </span>
+
+    
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Relational learning is concerned with learning from data where information is primarily represented in form of relations between entities. In recent years, this branch of machine learning has become increasingly important, as relational data is generated in an unprecedented amount and has become ubiquitous in many fields of application such as bioinformatics, artificial intelligence and social network analysis. However, relational learning is a very challenging task, due to the network structure and the high dimensionality of relational data. In this thesis we propose that tensor factorization can be the basis for scalable solutions for learning from relational data and present novel tensor factorization algorithms that are particularly suited for this task. <br/><br/> In the first part of the thesis, we present the RESCAL model &ndash; a novel tensor factorization for relational learning &ndash; and discuss its capabilities for exploiting the idiosyncratic properties of relational data. In particular, we show that, unlike existing tensor factorizations, our proposed method is capable of exploiting contextual information that is more distant in the relational graph. Furthermore, we present an efficient algorithm for computing the factorization. We show that our method achieves better or on-par results on common benchmark data sets, when compared to current state-of-the-art relational learning methods, while being significantly faster to compute. <br/><br/> In the second part of the thesis, we focus on large-scale relational learning and its applications to Linked Data. By exploiting the inherent sparsity of relational data, an efficient computation of RESCAL can scale up to the size of large knowledge bases, consisting of millions of entities, hundreds of relations and billions of known facts. We show this analytically via a thorough analysis of the runtime and memory complexity of the algorithm as well as experimentally via the factorization of the YAGO2 core ontology and the prediction of relationships in this large knowledge base on a single desktop computer. Furthermore, we derive a new procedure to reduce the runtime complexity for regularized factorizations from O(r^5) to O(r^3) &ndash; where r denotes the number of latent components of the factorization &ndash; by exploiting special properties of the factorization. We also present an efficient method for including attributes of entities in the factorization through a novel coupled tensor-matrix factorization. Experimentally, we show that RESCAL allows us to approach several relational learning tasks that are important to Linked Data. <br/><br/> In the third part of this thesis, we focus on the theoretical analysis of learning with tensor factorizations. Although tensor factorizations have become increasingly popular for solving machine learning tasks on various forms of structured data, there exist only very few theoretical results on the generalization abilities of these methods. Here, we present the first known generalization error bounds for tensor factorizations. To derive these bounds, we extend known bounds for matrix factorizations to the tensor case. Furthermore, we analyze how these bounds behave for learning on over- and understructured representations, for instance, when matrix factorizations are applied to tensor data. In the course of deriving generalization bounds, we also discuss the tensor product as a principled way to represent structured data in vector spaces for machine learning tasks. In addition, we evaluate our theoretical discussion with experiments on synthetic data, which support our analysis.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+          <div class="col-xs-12 col-sm-9">
+            
+            <a href="/publication/#0">
+              Uncategorized
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">PhD Thesis</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            August, 2013
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
+
+
+
+
+<a class="btn btn-primary btn-outline" href="http://edoc.ub.uni-muenchen.de/16056/1/Nickel_Maximilian.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-primary btn-outline" href="/project/knowledge-graph-embeddings/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/knowledge-graphs/">knowledge-graphs</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/semantic-web/">semantic-web</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/linked-data/">linked-data</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/relational-learning/">relational-learning</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/embeddings/">embeddings</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/tensor-models/">tensor-models</a>
+  
+</div>
+
+
+
+
+  </div>
+</div>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

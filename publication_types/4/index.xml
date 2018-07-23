@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 on Maximilian Nickel</title>
+    <link>/publication_types/4/</link>
+    <description>Recent content in 4 on Maximilian Nickel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 30 Oct 2017 12:11:14 -0400</lastBuildDate>
+    
+	<atom:link href="/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fast Linear Model for Knowledge Graph Embeddings</title>
+      <link>/publication/joulin2017fast/</link>
+      <pubDate>Mon, 30 Oct 2017 12:11:14 -0400</pubDate>
+      
+      <guid>/publication/joulin2017fast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex and Holographic Embeddings of Knowledge Graphs: A Comparison</title>
+      <link>/publication/trouillon2017complex/</link>
+      <pubDate>Sun, 23 Jul 2017 13:19:31 -0400</pubDate>
+      
+      <guid>/publication/trouillon2017complex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logistic Tensor Factorization for Multi-Relational Data</title>
+      <link>/publication/nickel2013logistic/</link>
+      <pubDate>Mon, 10 Jun 2013 09:44:07 -0400</pubDate>
+      
+      <guid>/publication/nickel2013logistic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Taxonomies from Multi-Relational Data via Hierarchical Link-Based Clustering</title>
+      <link>/publication/nickel2011learning/</link>
+      <pubDate>Mon, 03 Oct 2011 09:46:39 -0400</pubDate>
+      
+      <guid>/publication/nickel2011learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Three-Way DEDICOM for Relational Learning</title>
+      <link>/publication/nickel2010dedicom/</link>
+      <pubDate>Thu, 30 Sep 2010 09:47:47 -0400</pubDate>
+      
+      <guid>/publication/nickel2010dedicom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Scalable Kernel Approach to Learning in Semantic Graphs with Applications to Linked Data</title>
+      <link>/publication/huang2010scalable/</link>
+      <pubDate>Sun, 25 Jul 2010 09:47:21 -0400</pubDate>
+      
+      <guid>/publication/huang2010scalable/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

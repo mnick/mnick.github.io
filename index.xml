@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maximilian Nickel on Maximilian Nickel</title>
+    <link>/</link>
+    <description>Recent content in Maximilian Nickel on Maximilian Nickel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NIPS Symposium: Brains, Minds, and Machines</title>
+      <link>/workshop/brains-minds-machines/</link>
+      <pubDate>Sun, 22 Jul 2018 09:08:52 -0400</pubDate>
+      
+      <guid>/workshop/brains-minds-machines/</guid>
+      <description>
+
+&lt;p&gt;Today&amp;rsquo;s science, tomorrow&amp;rsquo;s engineering: We will be discussing current results in the scientific understanding of intelligence and how these results enable new approaches to replicate intelligence in engineered systems.&lt;/p&gt;
+
+&lt;p&gt;Understanding intelligence and the brain requires theories at different levels, ranging from the biophysics of single neurons to algorithms, computations, and a theory of learning. In this symposium, we aim to bring together researchers from machine learning, artificial intelligence, neuroscience, and cognitive science to present and discuss state-of-the-art research that is focused on understanding intelligence at these different levels.&lt;/p&gt;
+
+&lt;p&gt;Central questions of the symposium include how intelligence is grounded in computation, how these computations are implemented in neural systems, how intelligence can be described via unifying mathematical theories, and how we can build intelligent machines based on these principles.&lt;/p&gt;
+
+&lt;p&gt;Our core goal is to develop a science of intelligence, which means understanding human intelligence and its basis in the circuits of the brain and the biophysics of neurons. We also believe that the engineering of tomorrow will need the science of today, in the same way as the basic research of Hubel and Wiesel in the ‘60s was the foundation for today&amp;rsquo;s deep learning architectures.&lt;/p&gt;
+
+&lt;p&gt;Speakers and Panelists:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ganguli-gang.stanford.edu/surya.html&#34; target=&#34;_blank&#34;&gt;Surya Ganguli&lt;/a&gt;, Stanford University&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cbmm.mit.edu/about/people/hassabis&#34; target=&#34;_blank&#34;&gt;Demis Hassabis&lt;/a&gt;, DeepMind&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cbmm.mit.edu/about/people/koch&#34; target=&#34;_blank&#34;&gt;Christof Koch&lt;/a&gt;, Allen Institute for Brain Science&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cbmm.mit.edu/about/people/kreiman&#34; target=&#34;_blank&#34;&gt;Gabriel Kreiman&lt;/a&gt;, Harvard Medical School&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://garymarcus.com/&#34; target=&#34;_blank&#34;&gt;Gary Marcus&lt;/a&gt;, NYU&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cbmm.mit.edu/about/people/poggio&#34; target=&#34;_blank&#34;&gt;Tomaso Poggio&lt;/a&gt;, MIT&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.people.fas.harvard.edu/~asaxe/&#34; target=&#34;_blank&#34;&gt;Andrew Saxe&lt;/a&gt;, Harvard University&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.salk.edu/scientist/terrence-sejnowski/&#34; target=&#34;_blank&#34;&gt;Terrence Sejnowski&lt;/a&gt;, Salk Institute for Biological Studies&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cbmm.mit.edu/about/people/tenenbaum&#34; target=&#34;_blank&#34;&gt;Joshua Tenenbaum&lt;/a&gt;, MIT&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;symposium-program&#34;&gt;Symposium Program&lt;/h2&gt;
+
+&lt;h3 id=&#34;tomaso-poggio-brains-minds-and-machines-today-s-science-tomorrow-s-engineering&#34;&gt;Tomaso Poggio - Brains, Minds and Machines: Today’s Science, Tomorrow’s Engineering&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Director, Center for Brains Minds and Machines&lt;/em&gt;&lt;br/&gt;
+&lt;em&gt;McGovern Institute, Brain and Cognitive Sciences Department, CSAIL, MIT&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The mission of CBMM is to make progress on the greatest problem in science — human intelligence. A new field is emerging bringing together computer scientists, cognitive scientists and neuroscientists to work in close collaboration dedicated to developing a computationally centered understanding of human intelligence and to establishing an engineering practice based on that understanding. I will describe the Turing++ Questions idea, their scientific role and their potential impact on the engineering of tomorrow.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/1jKd32MguCA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;christof-koch-the-neuroscience-of-intelligence&#34;&gt;Christof Koch - The Neuroscience of Intelligence&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;President and Chief Scientific Officer&lt;/em&gt;&lt;br/&gt;
+&lt;em&gt;Allen Institute for Brain Science&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Yesterday’s scientific research, starting with Hubel and Wiesel’s Nobel-prize winning work on the circuitry underlying visual processing in cortex, gave rise to today’s deep machine learning networks. Likewise, today’s research into the neuronal basis underlying high-level cognition and intelligence in homo sapiens should help with the future engineering of human-level AI. This talk will highlight what is known about the neuronal basis of intelligence and will describe an ongoing large project focused on fully characterizing the basic switching elements and their interconnections in the mouse and human neocortex.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/QiGzH5cmQNA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;gabriel-kreiman-the-roles-of-recurrent-and-feedback-computations-in-cortex&#34;&gt;Gabriel Kreiman - The Roles of Recurrent and Feedback Computations in Cortex&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Associate Professor&lt;/em&gt;&lt;br/&gt;
+&lt;em&gt;Harvard Medical School&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;There are abundant recurrent connections throughout the brain, yet their functional roles remain poorly understood and these connections are notoriously absent in the successful body of work on deep feed-forward architectures. In this talk, I will take inspiration from neurobiology to suggest possible computations that could be instantiated by recurrent connections. As a paradigmatic example, we will consider the problem of pattern completion, whereby we are able to extrapolate and make inferences from partial information. Following Marr’s three-level description of visual processing, we will present behavioral, physiological and computational evidence demonstrating how recurrent connections can help solve the problem of pattern completion.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/iqEvGCrs9PI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;andrew-saxe-hallmarks-of-deep-learning-in-the-brain&#34;&gt;Andrew Saxe - Hallmarks of Deep Learning in the Brain&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Swartz Postdoctoral Fellow in Theoretical Neuroscience&lt;/em&gt;&lt;br/&gt;
+&lt;em&gt;Center for Brain Science, Harvard University&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Anatomically, the brain is deep. To understand the ramifications of depth on learning in the brain requires a clear theory of deep learning. I develop the theory of gradient descent learning in deep linear neural networks, which gives exact quantitative answers to fundamental questions such as how learning speed scales with depth, how unsupervised pretraining speeds learning, and how internal representations change across a deep network. Several key hallmarks of deep learning are consistent with behavioral and neural observations. The theory can be further specialized for specific experimental paradigms. Taking perceptual learning as an example, I show that a deep learning theory accounts for neural tuning changes across the cortical hierarchy; and predicts behavioral performance transfer to untrained tasks as a function of task precision, restricted position training, and learning time. Together, these findings suggest that depth may be a key factor constraining learning dynamics in the brain. A better scientific understanding should eventually contribute to engineering advances, and I discuss one example from this work: a class of scaled, orthogonal initializations which permit rapid training of very deep nonlinear networks. Joint work with Surya Ganguli and Jay McClelland.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/XbjHT_FC3-g&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;surya-ganguli-towards-glimpses-of-a-new-science-of-brains-minds-and-machines-weaving-together-physics-computer-science-and-neurobiology&#34;&gt;Surya Ganguli - Towards Glimpses of a New Science of Brains, Minds and Machines: Weaving Together Physics, Computer Science, and Neurobiology&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Assistant Professor&lt;/em&gt;&lt;br/&gt;
+&lt;em&gt;Deparment of Applied Physics, Stanford University&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Our neural circuits exploit the laws of physics to perform computations in ways that are fundamentally different from traditional computers designed by these same neural circuits. To eradicate this irony, we must develop a new science of brains, minds and machines that seamlessly weaves together physics, computation and neurobiology to both elucidate the design principles governing neural systems, and instantiate these principles in physical devices. We will discuss several glimpses in such a direction, including: (1) understanding the speed with which both infants and deep neural circuits learn hierarchical structure, (2) exploiting the geometry of high dimensional error surfaces to speed up learning, (3) exploiting ideas from non-equilibrium statistical mechanics to circumvent credit-assignment and mixing time problems to learn very deep stochastic generative models, and (4) delineating fundamental theoretical limits on the energy, speed and accuracy of communication by any physically implementable device.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/CSGONuMrj2s&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;demis-hassabis-neuroscience-and-the-quest-for-ai&#34;&gt;Demis Hassabis - Neuroscience and the Quest for AI&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Co-Founder &amp;amp; CEO, DeepMind&lt;/em&gt;&lt;br/&gt;
+&lt;em&gt;Vice President of Engineering, Google&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;How systems neuroscience can help in the quest for Artificial General Intelligence&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/zvBoOF01MY4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;joshua-tenenbaum-building-machines-that-learn-like-humans&#34;&gt;Joshua Tenenbaum - Building Machines That Learn Like Humans&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Professor&lt;/em&gt;&lt;br/&gt;
+&lt;em&gt;Department of Brain and Cognitive Sciences, MIT&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;What is the essence of human intelligence — what makes any human child smarter than any artificial intelligence system that has ever been built? Recent advances in machine learning and computer vision are extremely impressive as engineering accomplishments, but are far from approaching learning and perception the way humans do. I will talk about this gap, highlighting the difference between a view of intelligence as pattern recognition, where the goal is to find invariant features for classification, and intelligence as causal modeling, where the goal is to build and reason with generative models of the world&amp;rsquo;s causal structure. I will talk about the ways cognitive scientists are beginning to reverse-engineer human scene understanding and concept learning using methods from probabilistic programs and program induction &amp;ndash; often complemented by deep learning, nonparametric Bayes, and other more conventional machine learning approaches. I hope to convince you that a deeper conversation between these fields can benefit us all, laying the foundations for more human-like approaches to artificial intelligence as well as a better understanding of human minds and brains in computational terms.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/quPN7Hpk014&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;panel-discussion&#34;&gt;Panel Discussion&lt;/h3&gt;
+
+&lt;p&gt;Including all speakers and the panelists &lt;em&gt;Gary Marcus&lt;/em&gt; and &lt;em&gt;Terry Sejnowski&lt;/em&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/w7hobDdw1Pg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Geometric Representation Learning</title>
+      <link>/project/geometric-representation-learning/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/project/geometric-representation-learning/</guid>
+      <description>&lt;p&gt;Representation learning has become an invaluable approach in machine learning
+and artificial intelligence. For instance, word embeddings such as
+&lt;a href=&#34;http://papers.nips.cc/paper/5021-distributed-representations-of-words-andphrases&#34; target=&#34;_blank&#34;&gt;word2vec&lt;/a&gt;,
+&lt;a href=&#34;https://nlp.stanford.edu/projects/glove/&#34; target=&#34;_blank&#34;&gt;GloVe&lt;/a&gt; and
+&lt;a href=&#34;https://github.com/facebookresearch/fastText&#34; target=&#34;_blank&#34;&gt;fastText&lt;/a&gt; are widely used for
+tasks rangingfrom machine translation to sentiment analysis. Similarly,
+embeddings of (multi-)graphs such as
+&lt;a href=&#34;/project/knowledge-graph-embeddings&#34;&gt;RESCAL&lt;/a&gt; and
+&lt;a href=&#34;https://snap.stanford.edu/node2vec/&#34; target=&#34;_blank&#34;&gt;node2vec&lt;/a&gt; have found important
+applications for learning in semantic and social networks.&lt;/p&gt;
+
+&lt;p&gt;In this project, we study a fundamental aspect of
+representation learning, i.e., the &lt;strong&gt;influence of the underlying geometry on
+embedding structured data&lt;/strong&gt;. This spans research areas such as &lt;em&gt;machine learning in
+non-Euclidean geometries&lt;/em&gt;, &lt;em&gt;Riemannian geometry and optimization&lt;/em&gt;, &lt;em&gt;graph theory&lt;/em&gt;, as well as
+&lt;em&gt;representation learning for structured data&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;One motivation for this project is that many complex symbolic
+datasets (e.g., text corpora, networks) are characterized by &lt;em&gt;latent hierarchies&lt;/em&gt;.
+However, modeling such hierarchical structures in Euclidean space
+requires large embedding dimensions which, in turn, causes significant problems
+with regard to the computational complexity and the representation capacity of such
+embeddings.&lt;/p&gt;
+
+&lt;p&gt;Moreover, finding a way to represent hierarchies explicitly in an
+embedding space can be very beneficial to solve complex tasks in artificial
+intelligence such as reasoning, lexical entailment, or few- and zero-shot
+learning.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/ca-condmat.png&#34; alt=&#34;Figure 1: Tree-like structure of a scientific collaboration network.&#34; width=&#34;50%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;p&gt;
+    Figure 1: Tree-like structure of a scientific collaboration network.
+    
+    Image by Aaron Adcock.
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;In our work on &lt;a href=&#34;/tags/hyperbolic-embeddings/&#34;&gt;hyperbolic embeddings&lt;/a&gt;, we
+introduce a novel approach for &lt;strong&gt;learning hierarchical representations&lt;/strong&gt; by
+embedding entities into hyperbolic space. Due to its geometry, hyperbolic space
+can be thought of as a &lt;em&gt;continuous version of trees&lt;/em&gt; what allows us to learn
+parsimonious representations that simultaneously capture hierarchy and
+similarity. This a leads to significant improvements in terms of representation
+capacity and generalization ability on data with latent hierarchies. For
+instance, Figure 2 illustrates how efficient large hierarchies such
+as the WordNet noun taxonomy can be embedded in hyperbolic space.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/wn-nouns.jpg&#34; alt=&#34;Figure 2: Embedding of the WordNet noun hierarchy into a 2-dimensional hyperbolic space&#34; width=&#34;90%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;p&gt;
+    Figure 2: Embedding of the WordNet noun hierarchy into a 2-dimensional hyperbolic space
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Moreover, due to the hierarchical nature of hyperbolic space we can identify
+hierarchical relationships directly from the embedding. In our &lt;a href=&#34;/publications/nickel2018learning&#34;&gt;ICML&amp;rsquo;18
+paper&lt;/a&gt;, we used this property to discover
+hierarchies from similarity measurements. For instance, the image below shows an
+embedding of language similarities in hyperbolic space. It can be seen that the embedding does not only reflect the different language clusters nicely, but also captures the historical relationships between
+languages (where older languages are closer to the center of the disc).&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/cognate.jpg&#34; alt=&#34;Figure 3: Discovering historical relationships between languages by embedding cognate similiarity scores in hyperbolic space&#34; width=&#34;95%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;p&gt;
+    Figure 3: Discovering historical relationships between languages by embedding cognate similiarity scores in hyperbolic space
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Code to compute Poincaré embeddings is available on
+&lt;a href=&#34;https://github.com/facebookresearch/poincare-embeddings&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;. Code to
+comute embeddings in the Lorentz model, as proposed in our recent paper, will
+follow soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Knowledge Graph Embeddings</title>
+      <link>/project/knowledge-graph-embeddings/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/project/knowledge-graph-embeddings/</guid>
+      <description>&lt;div class=&#34;quote&#34;&gt;
+  &lt;div class=&#34;quote-text&#34;&gt;I am convinced that the crux of the problem of learning is recognizing relationships and being able to use them&lt;/div&gt;
+  &lt;hr/&gt;
+&lt;div class=&#34;author&#34;&gt;Christopher Strachey in a letter to Alan Turing, 1954&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Knowledge graphs represent information via entities and their relationships. This
+form of relational knowledge representation has a long history in logic and
+artificial intelligence. More recently, it has also been the basis of the
+Semantic Web to create a &amp;ldquo;web of data&amp;rdquo; that is readable by machines.&lt;/p&gt;
+
+&lt;p&gt;In this project, we explore embedding methods for learning from knowledge graphs.
+These methods combine multiple advantages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;State-oft-the-art results for complex tasks like link prediction and entity resolution&lt;/li&gt;
+&lt;li&gt;Scalable to knowledge graphs with millions of entities and billions of facts&lt;/li&gt;
+&lt;li&gt;Provide access to relational information for deep learning methods&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Relational embedding methods are therefore not only interesting from a knowledge graph
+perspective, but can also be an important step towards relational reasoning in
+modern AI systems.&lt;/p&gt;
+
+&lt;p&gt;One of the first knowledge graph embedding methods is
+&lt;a href=&#34;/publication/nickel2011rescal&#34;&gt;RESCAL&lt;/a&gt; which computes a three-way factorization
+of an adjacency tensor that represents the knowledge graph. Alternatively, it can
+be interpreted as a &lt;em&gt;compositional model&lt;/em&gt;, where pairs of entities are
+represented via the tensor product of their embeddings. RESCAL is a very
+powerful model that can capture complex relational patterns over multiple hops
+in a graph. Figure 1 shows an illustration of the factorization model.&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&#34;/img/rescal_factors.jpg&#34; alt=&#34;Figure 1: Illustration of the RESCAL factorizaion.&#34; width=&#34;80%&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;p&gt;
+    Figure 1: Illustration of the RESCAL factorizaion.
+    
+    
+    
+  &lt;/p&gt; 
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;However, RESCAL can be hard to scale to very large knowledge-graphs because its
+has a quadratic runtime and memory complexity with regard to the embedding
+dimension. For this reason, we also explored compositonal operators that are
+more efficient than the tensor product. One outcome of this research direction
+are &lt;a href=&#34;/publication/nickel2016holographic&#34;&gt;Holographic embeddings of knowledge graphs
+(HolE)&lt;/a&gt; which use &lt;em&gt;circular convolution&lt;/em&gt; as
+the compositional operator. Due to this, it can also be interpreted as a
+multi-relational &lt;em&gt;associative memory&lt;/em&gt;, where the relation embeddings store which
+latent pairs (or pairs of prototypes) are true for a certain relation type. HolE
+retains the excellent performance of RESCAL while being far more scalable, as it
+only has a linear dependency on the embedding dimension.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;div style=&#34;width: 45%; display: inline-block;&#34;&gt;
+&lt;img src=&#34;/img/ham.png&#34;&gt;
+&lt;/div&gt;
+&lt;div style=&#34;width: 48%; display: inline-block;&#34;&gt;
+&lt;img src=&#34;/img/ham2.png&#34;&gt;
+&lt;/div&gt;
+&lt;figcaption&gt;&lt;p&gt;Figure 2: Holographic associative memory. Figure adapted from &lt;a href=&#34;https://www.taylorfrancis.com/books/e/9781317785217/chapters/10.4324%2F9781315807997-9&#34;&gt;Willshaw (1981)&lt;/a&gt;.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;An extensive review of statistical machine learning for knowledge graphs is
+available &lt;a href=&#34;/publication/nickel2016review&#34;&gt;here&lt;/a&gt;. Moreover, a python library that
+implements many state-of-the-art knowledge graph embeddings methods (e.g.,
+RESCAL, HolE, TransE, ER-MLP) is available on
+&lt;a href=&#34;http://github.com/mnick/scikit-kge&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hearst Patterns Revisited: Automatic Hypernym Detection from Large Text Corpora</title>
+      <link>/publication/roller2018hearst/</link>
+      <pubDate>Fri, 08 Jun 2018 12:09:45 -0400</pubDate>
+      
+      <guid>/publication/roller2018hearst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning visually grounded sentence representations</title>
+      <link>/publication/kiela2018learning/</link>
+      <pubDate>Mon, 04 Jun 2018 12:11:34 -0400</pubDate>
+      
+      <guid>/publication/kiela2018learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Continuous Hierarchies in the Lorentz Model of Hyperbolic Geometry</title>
+      <link>/publication/nickel2018learning/</link>
+      <pubDate>Fri, 09 Feb 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/nickel2018learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Separating Self-Expression and Visual Content in Hashtag Supervision</title>
+      <link>/publication/veit2018separating/</link>
+      <pubDate>Mon, 27 Nov 2017 12:10:15 -0400</pubDate>
+      
+      <guid>/publication/veit2018separating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Linear Model for Knowledge Graph Embeddings</title>
+      <link>/publication/joulin2017fast/</link>
+      <pubDate>Mon, 30 Oct 2017 12:11:14 -0400</pubDate>
+      
+      <guid>/publication/joulin2017fast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex and Holographic Embeddings of Knowledge Graphs: A Comparison</title>
+      <link>/publication/trouillon2017complex/</link>
+      <pubDate>Sun, 23 Jul 2017 13:19:31 -0400</pubDate>
+      
+      <guid>/publication/trouillon2017complex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poincaré Embeddings for Learning Hierarchical Representations</title>
+      <link>/publication/nickel2017poincare/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/nickel2017poincare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Holographic Embeddings of Knowledge Graphs</title>
+      <link>/publication/nickel2016holographic/</link>
+      <pubDate>Fri, 16 Oct 2015 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/nickel2016holographic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Review of Relational Machine Learning for Knowledge Graphs</title>
+      <link>/publication/nickel2016review/</link>
+      <pubDate>Mon, 02 Mar 2015 09:08:52 -0400</pubDate>
+      
+      <guid>/publication/nickel2016review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Querying the Web with Statistical Machine Learning</title>
+      <link>/publication/tresp2013querying/</link>
+      <pubDate>Wed, 02 Jul 2014 11:55:59 -0400</pubDate>
+      
+      <guid>/publication/tresp2013querying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reducing the Rank in Relational Factorization Models by Including Observable Patterns</title>
+      <link>/publication/nickel2014learning/</link>
+      <pubDate>Mon, 23 Jun 2014 09:25:17 -0400</pubDate>
+      
+      <guid>/publication/nickel2014learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Querying Factorized Probabilistic Triple Databases</title>
+      <link>/publication/krompass2014querying/</link>
+      <pubDate>Mon, 12 May 2014 09:42:55 -0400</pubDate>
+      
+      <guid>/publication/krompass2014querying/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

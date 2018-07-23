@@ -1,0 +1,29 @@
+.pub-list-item .pub-icon {display: none;}
+/* a {color: #5890FF} */
+.network-icon a {color: #000000}
+.project-item .card-desription a {color: #999999}
+.project-item .card-desription div {width: 100%; text-align: right; font-size: 0.75rem; color: #999}
+
+.quote {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+.quote .quote-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.quote .author {
+    width: 70%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.quote hr {
+    width: 70%;
+    margin: 1ex auto;
+}
+
+figure p {text-align: center}

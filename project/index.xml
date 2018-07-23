@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Maximilian Nickel</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Maximilian Nickel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sat, 21 Jul 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Geometric Representation Learning</title>
+      <link>/project/geometric-representation-learning/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/project/geometric-representation-learning/</guid>
+      <description>Representation learning has become an invaluable approach in machine learning and artificial intelligence. For instance, word embeddings such as word2vec, GloVe and fastText are widely used for tasks rangingfrom machine translation to sentiment analysis. Similarly, embeddings of (multi-)graphs such as RESCAL and node2vec have found important applications for learning in semantic and social networks.
+In this project, we study a fundamental aspect of representation learning, i.e., the influence of the underlying geometry on embedding structured data.</description>
+    </item>
+    
+    <item>
+      <title>Knowledge Graph Embeddings</title>
+      <link>/project/knowledge-graph-embeddings/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/project/knowledge-graph-embeddings/</guid>
+      <description>I am convinced that the crux of the problem of learning is recognizing relationships and being able to use them  Christopher Strachey in a letter to Alan Turing, 1954  Knowledge graphs represent information via entities and their relationships. This form of relational knowledge representation has a long history in logic and artificial intelligence. More recently, it has also been the basis of the Semantic Web to create a &amp;ldquo;web of data&amp;rdquo; that is readable by machines.</description>
+    </item>
+    
+  </channel>
+</rss>

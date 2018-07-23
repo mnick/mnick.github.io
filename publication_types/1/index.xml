@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Maximilian Nickel</title>
+    <link>/publication_types/1/</link>
+    <description>Recent content in 1 on Maximilian Nickel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 08 Jun 2018 12:09:45 -0400</lastBuildDate>
+    
+	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hearst Patterns Revisited: Automatic Hypernym Detection from Large Text Corpora</title>
+      <link>/publication/roller2018hearst/</link>
+      <pubDate>Fri, 08 Jun 2018 12:09:45 -0400</pubDate>
+      
+      <guid>/publication/roller2018hearst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning visually grounded sentence representations</title>
+      <link>/publication/kiela2018learning/</link>
+      <pubDate>Mon, 04 Jun 2018 12:11:34 -0400</pubDate>
+      
+      <guid>/publication/kiela2018learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Continuous Hierarchies in the Lorentz Model of Hyperbolic Geometry</title>
+      <link>/publication/nickel2018learning/</link>
+      <pubDate>Fri, 09 Feb 2018 00:00:00 -0500</pubDate>
+      
+      <guid>/publication/nickel2018learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Separating Self-Expression and Visual Content in Hashtag Supervision</title>
+      <link>/publication/veit2018separating/</link>
+      <pubDate>Mon, 27 Nov 2017 12:10:15 -0400</pubDate>
+      
+      <guid>/publication/veit2018separating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poincaré Embeddings for Learning Hierarchical Representations</title>
+      <link>/publication/nickel2017poincare/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/nickel2017poincare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Holographic Embeddings of Knowledge Graphs</title>
+      <link>/publication/nickel2016holographic/</link>
+      <pubDate>Fri, 16 Oct 2015 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/nickel2016holographic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reducing the Rank in Relational Factorization Models by Including Observable Patterns</title>
+      <link>/publication/nickel2014learning/</link>
+      <pubDate>Mon, 23 Jun 2014 09:25:17 -0400</pubDate>
+      
+      <guid>/publication/nickel2014learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Querying Factorized Probabilistic Triple Databases</title>
+      <link>/publication/krompass2014querying/</link>
+      <pubDate>Mon, 12 May 2014 09:42:55 -0400</pubDate>
+      
+      <guid>/publication/krompass2014querying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensor Factorization for Multi-Relational Learning</title>
+      <link>/publication/nickel2013btensor/</link>
+      <pubDate>Mon, 22 Apr 2013 10:49:37 -0400</pubDate>
+      
+      <guid>/publication/nickel2013btensor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Analysis of Tensor Models for Learning from Structured Data.</title>
+      <link>/publication/nickel2013analysis/</link>
+      <pubDate>Mon, 22 Apr 2013 09:43:46 -0400</pubDate>
+      
+      <guid>/publication/nickel2013analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scalable Relation Prediction Exploiting Both Intrarelational Correlation and Contextual Information</title>
+      <link>/publication/jiang2012scalable/</link>
+      <pubDate>Sun, 01 Apr 2012 09:45:35 -0400</pubDate>
+      
+      <guid>/publication/jiang2012scalable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combining Information Extraction, Deductive Reasoning and Machine Learning for Relation Prediction</title>
+      <link>/publication/jiang2012combining/</link>
+      <pubDate>Fri, 09 Mar 2012 09:45:19 -0400</pubDate>
+      
+      <guid>/publication/jiang2012combining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Factorizing YAGO: Scalable Machine Learning for Linked Data</title>
+      <link>/publication/nickel2012factorizing/</link>
+      <pubDate>Sun, 26 Feb 2012 09:44:35 -0400</pubDate>
+      
+      <guid>/publication/nickel2012factorizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Three-Way Model for Collective Learning on Multi-Relational Data</title>
+      <link>/publication/nickel2011rescal/</link>
+      <pubDate>Thu, 05 May 2011 09:46:03 -0400</pubDate>
+      
+      <guid>/publication/nickel2011rescal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
