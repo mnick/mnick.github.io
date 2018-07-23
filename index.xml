@@ -167,18 +167,16 @@ embedding structured data&lt;/strong&gt;. This spans research areas such as &lt;
 non-Euclidean geometries&lt;/em&gt;, &lt;em&gt;Riemannian geometry and optimization&lt;/em&gt;, &lt;em&gt;graph theory&lt;/em&gt;, as well as
 &lt;em&gt;representation learning for structured data&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;One motivation for this project is that many complex symbolic
-datasets (e.g., text corpora, networks) are characterized by &lt;em&gt;latent hierarchies&lt;/em&gt;.
-However, modeling such hierarchical structures in Euclidean space
-requires large embedding dimensions which, in turn, causes significant problems
-with regard to the computational complexity and the representation capacity of such
-embeddings.&lt;/p&gt;
+&lt;p&gt;For instance, finding a way to represent hierarchies explicitly in an embedding
+space can be very beneficial to solve complex tasks in artificial intelligence
+such as reasoning, lexical entailment, or few- and zero-shot learning. Moreover,
+many complex symbolic datasets (e.g., text corpora and networks) are characterized
+by &lt;em&gt;latent hierarchies&lt;/em&gt;. However, modeling such hierarchical structures in
+Euclidean space requires large embedding dimensions which, in turn, causes
+significant problems with regard to the computational complexity and the
+representation capacity of such embeddings.&lt;/p&gt;
 
-&lt;p&gt;Moreover, finding a way to represent hierarchies explicitly in an
-embedding space can be very beneficial to solve complex tasks in artificial
-intelligence such as reasoning, lexical entailment, or few- and zero-shot
-learning.&lt;/p&gt;
-
+&lt;!--
 &lt;figure&gt;
 
 &lt;img src=&#34;/img/ca-condmat.png&#34; alt=&#34;Figure 1: Tree-like structure of a scientific collaboration network.&#34; width=&#34;50%&#34; /&gt;
@@ -195,6 +193,7 @@ learning.&lt;/p&gt;
 &lt;/figcaption&gt;
 
 &lt;/figure&gt;
+--&gt;
 
 &lt;p&gt;In our work on &lt;a href=&#34;/tags/hyperbolic-embeddings/&#34;&gt;hyperbolic embeddings&lt;/a&gt;, we
 introduce a novel approach for &lt;strong&gt;learning hierarchical representations&lt;/strong&gt; by
@@ -227,8 +226,10 @@ as the WordNet noun taxonomy can be embedded in hyperbolic space.&lt;/p&gt;
 hierarchical relationships directly from the embedding. In our &lt;a href=&#34;/publications/nickel2018learning&#34;&gt;ICML&amp;rsquo;18
 paper&lt;/a&gt;, we used this property to discover
 hierarchies from similarity measurements. For instance, the image below shows an
-embedding of language similarities in hyperbolic space. It can be seen that the embedding does not only reflect the different language clusters nicely, but also captures the historical relationships between
-languages (where older languages are closer to the center of the disc).&lt;/p&gt;
+embedding of language similarities in hyperbolic space. It can be seen that the
+embedding does not only reflect the different language clusters nicely, but also
+captures the historical relationships between languages (where older languages
+are closer to the center of the disc).&lt;/p&gt;
 
 &lt;figure&gt;
 
