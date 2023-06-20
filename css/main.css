@@ -54,11 +54,23 @@ a::before {
 .profile {
     position: absolute;
     top: 0%;
-    left: 50%;
-    width: 600px;
-    margin: 3em 0 0 -300px;
     box-sizing: border-box;
-    padding: 20px 40px;
+}
+
+@media screen and (max-width: 599px) {
+    .profile {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .profile {
+        width: 600px;
+        margin: 3em 0 0 -300px;
+        left: 50%;
+        padding: 20px 40px;
+    }
 }
 
 .profile b {
@@ -66,7 +78,6 @@ a::before {
 }
 
 .vcard {
-    /*  text-align: center */;
     vertical-align: middle;
 }
 
