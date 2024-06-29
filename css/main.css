@@ -1,19 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&family=Merriweather:wght@300&family=Rubik+Pixels&display=swap');
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 body {
-    font-family: 'Merriweather', serif;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 14px;
+    color: #000;
 }
 
 h1, h2, h3 {
-    /* font-family: 'Josefin Sans', sans-serif; */
-    font-family: 'Merriweather', sans-serif;
     text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1em;
+    margin: 0 0 0.5em 0;
 }
 
 p, li {
-    font-family: 'Merriweather', serif;
     font-size: 1em;
     line-height: 1.5em;
 }
@@ -23,44 +30,79 @@ a, a:visited {
     text-decoration: none;
 }
 
-a::before {
+section a::before {
     content: "\F470";
     font-family: "bootstrap-icons" !important;
     vertical-align: middle;
 }
 
-.profile > nav {
-    position: fixed;
-    top: 13rem;
-    left: 50%;
-    margin-left: -500px;
+.mesh {
+    opacity: 0.6;
+    background-color:hsla(200,100%,50%,1);
+    background-image:
+    radial-gradient(at 40% 20%, hsla(183,100%,74%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(181,100%,93%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(340,100%,76%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(158,100%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0px, transparent 50%);
 }
 
-.profile > nav h3 {
-    font-weight: normal;
+.content nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.profile > nav ol { padding-left: 1em; }
-.profile > nav ol a:before { content: none; }
-
-.profile ul.links a {
-    color: #000;
+.content nav ul li {
+    display: inline-block;
+    margin: 0 2em 0 0;
 }
 
-.profile ul.links a::before {
+.content nav ul li::before {
+    content: "\F114";
+    font-family: "bootstrap-icons" !important;
+    margin-right: 1ex;
+    vertical-align: middle;
+}
+
+.content nav ul li a::before {
     content: none;
 }
 
-.profile {
+.content > nav h3 {
+    font-weight: nol; 
+}
+
+/* .content > nav ol { padding-left: 1em; } */
+/* .content > nav ol a:before { content: none; } */
+
+.content ul.links a {
+    color: #000;
+}
+
+.content ul.links a::before {
+    content: none;
+}
+
+.content {
     position: absolute;
     top: 0%;
     box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100vh;
 }
 
 @media screen and (max-width: 599px) {
-    .profile {
+    .content {
         width: 100%;
-        padding: 10px;
+        /* padding: 10px; */
     }
 
     .vcard img {
@@ -70,10 +112,10 @@ a::before {
 }
 
 @media screen and (min-width: 600px) {
-    .profile {
+    .content {
         width: 600px;
-        margin: 3em 0 0 -300px;
         left: 50%;
+        transform: translateX(-50%);
         padding: 20px 40px;
     }
 
@@ -83,45 +125,41 @@ a::before {
     }
 }
 
-@media screen and (max-width: 1024px) {
-    nav {
-        display: none;
-    }
+.content b {
+    font-weight: 700;
 }
 
-.profile b {
-    font-weight: 500;
-}
-
-.vcard {
-    vertical-align: middle;
-}
-
-.vcard h2 {
+.vcard h1 {
     display: inline-block;
-    vertical-align: middle;
 }
 
 .vcard img {
     border-radius: 20%;
     overflow: hidden;
-    margin-top: 10px;
-    margin-right: 30px;
+    margin: 0 2em 2em 0em;
     vertical-align: middle;
     float: right;
+    opacity: 0.9;
 }
 
-.profile section { margin-top: 2em; }
-.profile section.vcard { margin-top: 0; }
+.content section { margin-top: 2em; }
+.content section.vcard { margin-top: 0; }
 
-.profile ul.links {
+.social ul.links {
     list-style: none;
     clear: both;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25em;
 }
 
-.profile ul.links > li {
+.social ul.links > li {
     display: inline-block;
-    margin: 0em 1em 0 0.25em;
+    margin: 0em 2em;
+}
+
+.social ul.links > li:first-child {
+    margin-left: -4em;
 }
 
 .divider::before {
@@ -133,23 +171,27 @@ a::before {
     margin-bottom: 2em;
 }
 
-.paragraph i::before {
+.paragraph {
+    clear: both;
+}
+
+.paragraph p i::before {
     content: "\F5C8";
     font-family: "bootstrap-icons" !important;
     margin-right: 1ex;
     vertical-align: middle;
 }
 
-.paragraph i {
+.paragraph p i {
     /*  background-color: #4169e1;
     background-image: linear-gradient(45deg, #4169e1, #af4261); */
     font-weight: bold;
     margin-right: 2em;
 }
 
-ul.my-stuff {
+my-s tuff {
     list-style: none outside;
-    padding-left: 2.5em;
+    padding-left: 2.; 
 }
 
 ul.my-stuff ul {
