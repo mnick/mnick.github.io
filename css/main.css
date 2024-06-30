@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+/* disable dark mode */
+:root {
+    color-scheme: only light;
+}
+
 body {
     width: 100vw;
     height: 100vh;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 14px;
-    color: #000;
+    color: #000 !important;
 }
 
 h1, h2, h3 {
@@ -74,9 +79,6 @@ section a::before {
     font-weight: nol; 
 }
 
-/* .content > nav ol { padding-left: 1em; } */
-/* .content > nav ol a:before { content: none; } */
-
 .content ul.links a {
     color: #000;
 }
@@ -102,7 +104,6 @@ section a::before {
 @media screen and (max-width: 599px) {
     .content {
         width: 100%;
-        /* padding: 10px; */
     }
 
     .vcard img {
@@ -183,8 +184,6 @@ section a::before {
 }
 
 .paragraph p i {
-    /*  background-color: #4169e1;
-    background-image: linear-gradient(45deg, #4169e1, #af4261); */
     font-weight: bold;
     margin-right: 2em;
 }
