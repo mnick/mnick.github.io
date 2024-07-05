@@ -21,10 +21,9 @@
   <meta property="twitter:creator" content="@https://twitter.com/mnick">
   <link rel="stylesheet" media="screen" href="css/main.css">
 </head>
-<body class="mesh">
-  <!-- <div id="content" class="content"> -->
+<body class="mesh" itemtype="https://schema.org/ProfilePage" itemscope>
   <div id="particles-js"></div>
-  <div class="content">
+  <div class="content" itemprop="mainEntity" itemtype="https://schema.org/Person" itemscope>
     <div style="top:50%; position:absolute; transform: translateY(-50%);">
       <nav>
         <ul>
@@ -34,24 +33,24 @@
     </nav>
 
     <section class="vcard">
-      <img src="img/me2.jpg" alt="Maximilian Nickel">
-      <h1>Max<span style="font-weight: 400;margin-left:0.1ex;">imilian Nickel</span></h1>
+      <img src="img/me2.jpg" alt="Maximilian Nickel" itemprop="image" />
+      <h1 itemprop="name">Max<span style="font-weight: 400;margin-left:0.1ex;">imilian Nickel</span></h1>
       <p>
         <i class="bi-geo-fill"></i> New York<br/>
         <i class="bi-person-badge"></i> Research Scientist @ Meta FAIR
       </p>
     </section>
     <section class="about-me paragraph" id="about-me">
-      <p><i>tl;dr</i> 
+      <p itemprop="description"><i>tl;dr</i> 
         My research is focused on understanding the interplay of AI and social systems, good or bad. For this purpose, I am combining machine learning theory and methods with complex systems theory including networks, dynamics, and emergence. I aim to establish the necessary theoretical and methodological foundations for AI to safely interact with society and to obtain results that have a direct impact on AI practice, methods, and governance.
       </p>
     </section>
     <section class="social paragraph" id="social">
       <ul class="links">
-        <li><a href="https://www.threads.net/@maxsnickel"><i class="bi bi-threads"></i></a></li>
-        <li><a href="https://www.facebook.com/nickelmax"><i class="bi bi-facebook"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/maximilian-nickel-ai/"><i class="bi bi-linkedin"></i></a></li>
-        <li><a href="https://scholar.google.com/citations?hl=en&user=KDqGTIUAAAAJ"><i class="bi bi-mortarboard-fill"></i></a></li>
+        <li><a href="https://www.threads.net/@maxsnickel" itemprop="sameAs"><i class="bi bi-threads"></i></a></li>
+        <li><a href="https://www.facebook.com/nickelmax" itemprop="sameAs"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/maximilian-nickel-ai/" itemprop="sameAs"><i class="bi bi-linkedin"></i></a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=KDqGTIUAAAAJ" itemprop="sameAs"><i class="bi bi-mortarboard-fill"></i></a></li>
         <li><a href="mailto:maxn@meta.com"><i class="bi bi-envelope-at"></i></a></li>
       </ul>
     </section>
