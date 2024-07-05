@@ -45,6 +45,10 @@ section a::after, blockquote a::after, p a::after {
     font-size: 0.8em;
 }
 
+#social a::after {
+    content: none;
+}
+
 p a, p a:visited {
     font-style: italic;
 }
