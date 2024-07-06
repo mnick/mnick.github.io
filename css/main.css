@@ -112,11 +112,14 @@ blockquote p {
 
 #header {
     position: relative;
-    display: flex;
-    align-items: flex-end;
     padding: 0 0 2em 0em;
     margin: 2em 0;
     border-bottom: 2pt solid #000;
+}
+
+.though #header {
+    display: flex;
+    align-items: flex-end;
 }
 
 /* #header a, #header a:visited {
@@ -277,9 +280,21 @@ blockquote p {
     margin-right: 2em;
 }
 
-my-s tuff {
+ul.link-bar {
+    list-style: none;
+    clear: both;
+    padding-left: 0;
+    text-align: center;
+}
+
+ul.link-bar li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.my-stuff {
     list-style: none outside;
-    padding-left: 2.; 
+    padding-left: 2rem; 
 }
 
 ul.my-stuff ul {
