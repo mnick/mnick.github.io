@@ -112,14 +112,9 @@ blockquote p {
 
 #header {
     position: relative;
-    padding: 0 0 2em 0em;
+    padding: 0 0 1em 0em;
     margin: 2em 0;
     border-bottom: 2pt solid #000;
-}
-
-.though #header {
-    display: flex;
-    align-items: flex-end;
 }
 
 /* #header a, #header a:visited {
