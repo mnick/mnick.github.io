@@ -311,6 +311,8 @@ ul.my-stuff > li:before {
     left: -1.5em;
 }
 
+#share > a { margin-left: 0.5em; }
+
 #stuff > ul.my-stuff > li:nth-child(1):before { content: "\F885"; }
 #stuff > ul.my-stuff > li:nth-child(2):before { content: "\F5E7"; }
 #stuff > ul.my-stuff > li:nth-child(3):before { content: "\F828"; }
