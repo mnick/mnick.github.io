@@ -227,7 +227,7 @@ blockquote p {
     margin: 0 2em 2em 0em;
     vertical-align: middle;
     float: right;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .content section { margin-top: 2em; }
